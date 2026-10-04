@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: black; 
+}
+
+.maindiv {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    height: 620px;
+    width: 1000px; 
+    background-color: black;
+    overflow: hidden; 
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-exit: none; 
+    object-fit: cover; 
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.name {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-size: 24px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.resume-link {
+    font-size: 20px;
+    color: #00ffcc;
+    text-decoration: none;
+    border: 1px solid #00ffcc;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.resume-link:hover {
+    background-color: #00ffcc;
+    color: black;
+}
